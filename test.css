@@ -2,7 +2,7 @@ body{
     background-image:url("nekaj.jpg");
     background-repeat: no-repeat;
     background-position:100%;
-
+    background-color:darkslategray;
 }
 
 h1{
@@ -10,9 +10,9 @@ h1{
     border-style: dotted;
     border-style: outset groove;
     border-width:20px;
-    border-color: lightblue;
-    color: blue;
-    background-color:aqua;
+    border-color: black;
+    color: darkslategray;
+    background-color:gray;
 }
 
 p{
@@ -21,12 +21,14 @@ p{
 }
 
 table{
-    color: blue;
-    border-color: aqua;
-    background-color: aquamarine;
+    color: white;
+    border-color: gray;
+    background-color: black;
     border-width: 10px;
-    width:100%;
+    width:50%;
     border-collapse:collapse;
+    margin-left: auto;
+    margin-right: auto;
     
     
 }
@@ -34,7 +36,7 @@ tr{
     font-size:25px;
 }
 td:hover {
-    background-color: darkblue;
+    background-color: gray;
     color: white;
 }
 td::selection{
@@ -42,5 +44,48 @@ td::selection{
     background-color: gray;
 }
 td:active{
-    background-color: darkcyan;
+    background-color: darkslategray;
+}
+
+
+#izbornik li{
+    display:block;
+}
+
+#izbornik {
+    color: white;
+    border: 3px dotted gray;
+    width: 95px;
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    padding: 2px;
+    padding-right: 30px;
+}
+
+#izbornik li a{
+    color: white;
+    background: gray;
+    text-align: ;
+    border: 2px solid darkslategray;
+    padding: 6px 10px 2px 10px;
+    margin: 5px;
+    text-decoration: black;
+}
+
+#izbornik li a:hover{
+    border-bottom-color: black;
+    background-color: gray;
+    color: darkslategray;
+}
+
+#izbornik li a:active{
+    color: white,
+}
+
+#aktivni{
+    color: white;
+    background: gray;
+    border-bottom-color: darkslategray;
 }
