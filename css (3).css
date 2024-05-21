@@ -1,0 +1,21 @@
+body{
+    background-image:url("nekaj.jpg");
+    background-repeat: no-repeat;
+    background-position:100%;
+
+}
+
+h1{
+    text-align: center;
+    border-style: dotted;
+    border-style: outset groove;
+    border-width:20px;
+    border-color: lightblue;
+    color: blue;
+    background-color:aqua;
+}
+
+p{
+    font-family: "Times New Roman, Times, serif";
+    font-size:20px;
+}
